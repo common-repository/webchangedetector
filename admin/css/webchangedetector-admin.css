@@ -1,0 +1,997 @@
+/**
+ * Global
+ */
+
+.webchangedetector h2.nav-tab-wrapper {
+    margin-bottom: 30px;
+}
+
+#toplevel_page_webchangedetector .wp-submenu li:last-child a{
+    color: #3eb43e;
+}
+
+.webchangedetector .nav-tab-wrapper .group_icon:before {
+    font-size: 17px;
+}
+
+.webchangedetector .nav-tab.upgrade {
+    color: #389f38;
+}
+
+.webchangedetector {
+    max-width: 98%;
+}
+
+.webchangedetector .wcd-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.webchangedetector .notice h3 {
+    margin-top: 10px;
+}
+
+.webchangedetector table {
+    border-spacing: 0;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.webchangedetector table.no-margin {
+    margin-top: 0;
+}
+
+.webchangedetector table tr td {
+    border-top: 1px solid #aaa;
+}
+
+.webchangedetector tr th {
+    text-align: left;
+    background: #E3ECF7;
+    color: #333;
+}
+
+.webchangedetector td,
+.webchangedetector th {
+    padding: 10px;
+}
+
+.webchangedetector table.toggle tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.webchangedetector .highlight-wrapper {
+    display: flex;
+}
+
+@media (max-width: 1280px) {
+    .webchangedetector .highlight-wrapper {
+        flex-direction: column;
+    }
+}
+
+.webchangedetector .highlight-container {
+    width: 490px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+}
+.webchangedetector .highlight-container:first-child {
+    margin-right: 20px;
+}
+
+.webchangedetector .activate-account.highlight-container {
+    float: none;
+}
+
+.webchangedetector .highlight-inner {
+    padding: 20px;
+    background: #E3EDF8;
+    border: 1px solid #276ECC;
+}
+
+.webchangedetector .highlight-inner.no-bg {
+    background: inherit !important;
+}
+
+.webchangedetector .box-half {
+    width: calc(50% - 10px);
+    float: left;
+}
+.webchangedetector .box-one-third {
+    width: calc(33.33% - 10px);
+    float: left;
+}
+.webchangedetector .box-two-third {
+    width: calc(66.66% - 10px);
+    float: left;
+}
+.webchangedetector .box-half:last-child {
+    margin-left: 10px;
+}
+
+.webchangedetector .box-half:after {
+    clear: both;
+}
+
+.webchangedetector .button-delete {
+    background: #C83232;
+    border: 1px solid #A00000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0px 10px;
+}
+
+.webchangedetector .button-delete:before {
+    content: "\f182";
+}
+
+.webchangedetector .button-delete:hover {
+    background: #A00000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.webchangedetector #currently-processing-spinner {
+    visibility: visible;
+    float: none;
+    margin: 0 5px 0 0;
+}
+
+.webchangedetector .pagination {
+    text-align: center;
+}
+
+.webchangedetector td.is-difference {
+    background: darkred;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.webchangedetector td.no-difference {
+    background: darkgreen;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.webchangedetector hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.webchangedetector .sidebar {
+    border-left: 2px solid #aaa;
+    display: none;
+}
+
+.webchangedetector .account-box,
+.webchangedetector .help-box {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.webchangedetector .status_bar {
+    padding: 10px;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #E3EDF8;
+    border: 1px solid #aaa;
+}
+
+.webchangedetector .no-account-page {
+    max-width: 1000px;
+    margin: 50px auto 0;
+}
+.webchangedetector .no-account-page .status_bar {
+    padding: 0 30px 20px 30px;
+}
+
+
+.webchangedetector .status_bar .big {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.webchangedetector .status_bar .box.half {
+    width: 50%;
+    float: left;
+}
+
+.webchangedetector .image1,
+.webchangedetector .image2,
+.webchangedetector .comp_image {
+    float: left;
+    margin-right: 1%;
+}
+
+.webchangedetector .image1 img,
+.webchangedetector .image2 img,
+.webchangedetector .comp_image img {
+    border: 1px solid #eee;
+    padding: 2px;
+    width: 100%;
+}
+
+.webchangedetector .comparison-tiles {
+    display: flex;
+}
+
+.webchangedetector .comparison-tile {
+    float: left;
+    padding: 10px;
+    background: #276dcc1c;
+    color: #444;
+    border: 1px solid #aaa;
+    border-right: none;
+}
+
+.webchangedetector .comparison_status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.webchangedetector .comparison_status.comparison_status_ok {
+    background: green;
+}
+.webchangedetector .comparison_status.comparison_status_new {
+    background: grey;
+}
+.webchangedetector .comparison_status.comparison_status_to_fix {
+    background: darkred;
+}
+.webchangedetector .comparison_status.comparison_status_false_positive {
+    background: orange;
+}
+
+.webchangedetector .comparison-url-tile {
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+.webchangedetector .twentytwenty-container img {
+    width: 100%
+}
+
+.webchangedetector .twentytwenty-handle {
+    background: #aaa;
+}
+
+.webchangedetector .twentytwenty-after-label,
+.webchangedetector .twentytwenty-before-label {
+    display: none;
+}
+
+.webchangedetector .tablenav-pages-navspan.button {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.webchangedetector .comparison-diff-tile {
+    width: 100px;
+}
+.webchangedetector .comparison-status-tile {
+    width: 180px;
+    border-right: 1px solid #aaa;
+}
+.webchangedetector .comparison_status_container:hover .change_status {
+    display: block !important;
+    z-index: 100;
+}
+
+.webchangedetector .comparison_status_container .change_status button {
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px;
+}
+
+.webchangedetector .comparison_status_container .change_status button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.webchangedetector .comparison-date-tile {
+    width: 200px;
+    border-right: 1px solid #aaa;
+}
+
+
+.webchangedetector .comparison-tiles:last-child {
+    border-right: 1px solid #aaa;
+}
+
+.webchangedetector .comparison-diff-tile {
+    color: #fff;
+    text-shadow: 0 0 0 5px #fff;
+}
+
+.webchangedetector .accordion-batch .ui-accordion-header-icon {
+   vertical-align: top;
+}
+
+.webchangedetector .accordion-batch-title-tile {
+    padding-left: 30px;
+    float: left;
+}
+.webchangedetector .accordion-batch-title-tile.accordion-batch-title-tile-status {
+    width: 120px;
+    text-align: center;
+}
+
+
+.webchangedetector .batch_needs_attention {
+    font-size: 25px;
+    height: 20px;
+    width: 20px;
+    color: orange;
+}
+
+.webchangedetector .batch_is_ok {
+    font-size: 25px;
+    height: 20px;
+    width: 20px;
+    color: green;
+}
+
+.webchangedetector .twentytwenty-overlay:hover {
+    background: rgba(0,0,0,0) !important;
+}
+
+.webchangedetector label {
+    display: inline-block;
+    min-width: 180px;
+}
+
+.webchangedetector ul li {
+    list-style: disc;
+    margin-left: 15px;
+}
+
+.webchangedetector .mm_processing_container {
+    background: #fff2db;
+    border: 1px solid #adadad;
+    padding: 20px;
+}
+
+.webchangedetector .mm_accordion_title {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0 auto 15px;
+    padding: 0;
+}
+
+.webchangedetector .mm_accordion_title .mm_accordion_content {
+    cursor: default;
+}
+
+.webchangedetector .mm_accordion_title .mm_accordion_content.padding .button {
+    margin: 10px;
+}
+
+.webchangedetector .mm_accordion_title .mm_accordion_content.padding p {
+    padding: 10px;
+    margin: 0;
+}
+
+.webchangedetector .mm_accordion_title small {
+    padding-top: 10px;
+    display: block;
+}
+.webchangedetector .accordion-post-types-url-amount {
+    float: right;
+    font-size: 16px;
+}
+
+.webchangedetector .toggle:nth-of-type(odd) {
+    background: #f7f7f7;
+}
+
+.webchangedetector .setting-row {
+    padding: 20px 10px;
+    margin: 0;
+}
+.webchangedetector .setting-row small {
+    padding-top: 10px;
+    display: block;
+}
+
+.webchangedetector .wcd-frm-settings {
+    background: #fff;
+    padding: 10px;
+
+}
+
+.webchangedetector h3 {
+    margin: 0 0;
+}
+
+.webchangedetector .mm_accordion_title small {
+    font-weight: normal;
+}
+
+.webchangedetector .ui-icon {
+    display: inline;
+    vertical-align: middle;
+}
+
+.webchangedetector .accordion:hover {
+    cursor: pointer;
+}
+
+.webchangedetector .ui-accordion .ui-accordion-header,
+.webchangedetector .ui-accordion .ui-accordion-content {
+    background: none;
+}
+
+.webchangedetector .ui-accordion .ui-accordion-header,
+.webchangedetector .ui-accordion .ui-accordion-content {
+    border: none !important;
+}
+
+.webchangedetector .ui-state-focus {
+    border-width: 1px !important;
+}
+.webchangedetector .ui-accordion .ui-accordion-content {
+    border-radius: 3px;
+}
+
+.webchangedetector .ui-accordion .ui-accordion-icons {
+    padding: 10px 20px;
+}
+
+.webchangedetector .action-container {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.webchangedetector .group_urls_container {
+    background: #fff;
+}
+
+.webchangedetector .setting-container-column {
+    float: left;
+    width: calc(50% - 10px);
+    margin-right: 20px;
+}
+.webchangedetector .setting-container-column.last {
+    margin-right: 0;
+}
+
+.webchangedetector .sidebar {
+    float:left;
+    width: 300px;
+}
+
+
+/*.webchangedetector .help-box,
+.webchangedetector .account-box {
+    background: #276ECC;
+    color: #fff;
+    padding: 0 10px;
+    display: block;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 20px;
+}
+
+.webchangedetector .help-box h2,
+.webchangedetector .help-box h3,
+.webchangedetector .account-box h2,
+.webchangedetector .account-box h3{
+    color: #fff;
+}
+.webchangedetector .account-box a.account {
+    border-color: #fff;
+    float:right;
+}
+.webchangedetector .account-box a.account:hover{
+    background: rgba( 255,255,255,0.7);
+    border-color:#fff;
+}*/
+
+.webchangedetector .help-box h3 {
+    font-weight: 400;
+}
+
+.webchangedetector table.queue {
+    margin-bottom: 20px;
+}
+
+.webchangedetector .queue-status-open {
+    background: #eee;
+}
+.webchangedetector .queue-status-processing
+{
+    background: rgba( 254, 204, 48, 0.3);
+}
+.webchangedetector .queue-status-done {
+    background: #E7F2E7;
+}
+.webchangedetector .queue-status-failed {
+    background: rgba(252, 134, 134, 0.51);
+}
+
+.webchangedetector .filter-url-table {
+    float: right;
+    margin: 10px;
+    width: 300px;
+}
+
+.webchangedetector .wcd-select-urls-container,
+.webchangedetector .wcd-settings-container,
+.webchangedetector .wcd-highlight-bg{
+    margin-bottom: 20px;
+}
+
+.webchangedetector .wcd-highlight-bg.done {
+    background: #d5e4d5;
+    padding: 10px;
+}
+
+.webchangedetector .screenshots-done-icon {
+    font-size: 18px;
+    padding-right: 5px;
+    color: green;
+}
+
+.webchangedetector .screenshots-done-icon-big {
+    font-size: 36px;
+    height: 40px;
+    padding-right: 15px;
+    color: green;
+}
+
+.webchangedetector .wcd-select-urls-container h2 {
+    text-align: center;
+}
+
+.webchangedetector .wcd-frm-settings {
+    margin-bottom: 30px;
+}
+
+.webchangedetector .btn-copy-url-settings {
+    margin-top: -60px;
+}
+
+/* Darcula theme
+.webchangedetector p.code-tags {
+    background: #2B2B2B !important;
+    color: #629755;
+    font-style: italic;
+    font-size: 14px;
+    padding: 5px 10px !important;
+    margin: 0;
+} */
+
+.webchangedetector p.code-tags {
+    color: #d29305;
+    background: #f7f7f7;
+    font-style: italic;
+    font-size: 14px;
+    padding: 5px 10px !important;
+    margin: 0;
+}
+
+.webchangedetector .frm-codearea {
+    margin: 20px 0;
+}
+.webchangedetector .frm-codearea textarea{
+    margin-bottom: 20px;
+}
+
+
+/**************
+Monitoring
+ **************/
+.webchangedetector .status_bar #sc_until_renew.exceeding,
+.webchangedetector .status_bar #sc_available_until_renew.exceeding,
+.webchangedetector .status_bar #notice_screenshots_exceeding {
+    color: #E8930B;
+}
+
+/***************
+Manual Checks
+ ***************/
+
+.webchangedetector .step-button {
+    padding: 10px;
+    background: #DCE3ED;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #aaa;
+}
+
+.webchangedetector .wcd-step-container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.webchangedetector .update-status-container {
+    margin-bottom: 40px;
+}
+
+.webchangedetector .update-status {
+    padding: 20px 0;
+    width: calc(33% - 2px);
+    border: 1px solid #bbb;
+    float: left;
+    text-align: center;
+}
+
+.webchangedetector .update-status:first-child {
+
+}
+
+.webchangedetector #wcd-screenshots-done h2,
+.webchangedetector .wcd-step-container h2 {
+    margin: 0;
+}
+
+.webchangedetector .update-status.done {
+    background: #d5e4d5;
+}
+
+.webchangedetector .update-status.active {
+    background: #DCE3ED;
+    font-weight: 700;
+}
+.webchangedetector .update-status.disabled {
+    background: #e0e0e0;
+}
+
+/*.webchangedetector .update-status.done:before {
+    content: "\f12a";
+    font-family: dashicons;
+    color: green;
+    padding-right: 5px;
+}*/
+
+.webchangedetector .sc_button {
+    width: calc(33.33% - 10px);
+    text-align: left;
+    float: left;
+    white-space: inherit;
+    margin-right: 15px;
+    line-height: 2;
+}
+.webchangedetector .sc_button.last {
+    margin-right: 0;
+}
+
+.webchangedetector .sc_button button  {
+    white-space: inherit;
+    line-height: 2;
+}
+
+.webchangedetector .sc_button .button_headline  {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.webchangedetector .sc_button.no-click .sc_button_inner {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    text-align: center;
+}
+.webchangedetector .sc_button.no-click .sc_button_inner[disabled] {
+    color: #a0a5aa!important;
+    background: #f7f7f7!important;
+    border-color: #ddd!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+    cursor: default;
+}
+
+/********
+Dashboard
+ *******/
+
+.webchangedetector .dashboard {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.webchangedetector .box-plain {
+    padding: 15px 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display:block;
+    margin-bottom: 3px;
+}
+
+.webchangedetector .dashboard .box {
+    padding: 15px 20px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    display:block;
+    border-left: 5px solid #ddd;
+    margin-bottom: 3px;
+}
+.webchangedetector .dashboard .box.featured {
+    background: #276ECC;
+    color: #fff;
+    border-color: #1a5294;
+}
+.webchangedetector .dashboard .box.featured:hover {
+    background: rgba(39, 110, 204, 0.8);
+    color: #fff;
+}
+
+.webchangedetector .dashboard .box.last {
+    margin-right: 0;
+}
+
+.webchangedetector .dashboard .box:hover {
+    background: #eee;
+    border-left: 5px solid #276ECC;
+}
+
+.webchangedetector .dashboard .box-half {
+    border: 1px solid #276ECC;
+    margin: 10px 0;
+    width: calc(50% - 44px);
+    float: left;
+    padding: 0 20px ;
+}
+.webchangedetector .dashboard .box-half.right {
+    float: right;
+}
+
+.webchangedetector .dashboard .box-half.usages {
+    background: rgb(246, 250, 254);
+}
+
+
+.webchangedetector .box-half.no-border {
+    border: none;
+
+}
+
+.webchangedetector .dashboard .box-half.last {
+    margin-right: 0;
+}
+
+.webchangedetector .dashboard .box-half hr{
+    margin-top:5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+}
+
+/********
+Settings
+ *******/
+.webchangedetector .frm_new_account input,
+.webchangedetector .frm_use_api_token input {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+}
+
+/****
+Wizard
+ */
+.webchangedetector .wcd-wizard {
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #01A0D2;
+    color: #fff;
+    box-shadow: 0 0 20px #666;
+    max-width: 300px;
+    font-size: 14px;
+    scroll-margin-top: 30px;
+    border: 3px solid #fff;
+}
+
+.webchangedetector .wcd-wizard h2 {
+    color: #fff;
+    margin-top: 0;
+}
+.webchangedetector .wcd-wizard p a {
+    color: #fff;
+    text-decoration: underline;
+}
+.webchangedetector .wcd-wizard p a:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.webchangedetector .bottom-plus-50 {
+    bottom: 50px;
+}
+.webchangedetector .bottom-plus-100 {
+    bottom: 100px;
+}
+.webchangedetector .bottom-plus-200 {
+    bottom: 200px;
+}
+.webchangedetector .bottom-plus-300 {
+    bottom: 300px;
+}
+.webchangedetector .right-minus-30 {
+    right: -30px;
+}
+.webchangedetector .right-minus-50 {
+    right: -50px;
+}
+.webchangedetector .right-plus-10 {
+    right: 10px;
+}
+.webchangedetector .right-plus-50 {
+    right: 50px;
+}
+.webchangedetector .right-minus-100 {
+    right: -100px;
+}
+.webchangedetector .top-plus-100 {
+    margin-top: 100px;
+}
+.webchangedetector .top-minus-50 {
+    margin-top: -50px;
+}
+.webchangedetector .top-minus-100 {
+    margin-top: -100px;
+}
+.webchangedetector .top-minus-150 {
+    margin-top: -150px;
+}
+.webchangedetector .top-minus-200 {
+    margin-top: -200px;
+}
+.webchangedetector .top-minus-400 {
+    margin-top: -400px;
+}
+.webchangedetector .top-minus-600 {
+    margin-top: -600px;
+}
+.webchangedetector .left-minus-100 {
+    margin-left: -100px;
+}
+.webchangedetector .left-plus-100 {
+    margin-left: 100px;
+}
+.webchangedetector .left-plus-200 {
+    margin-left: 200px;
+}
+.webchangedetector .left-plus-300 {
+    margin-left: 300px;
+}
+.webchangedetector .left-plus-400 {
+    margin-left: 400px;
+}
+.webchangedetector .left-plus-500 {
+    margin-left: 500px;
+}
+.webchangedetector .left-plus-650 {
+    margin-left: 650px;
+}
+.webchangedetector .left-plus-700 {
+    margin-left: 700px;
+}
+.webchangedetector .left-plus-800 {
+    margin-left: 800px;
+}
+.wcd-wizard.bottom::after {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-color: #01A0D2 transparent transparent transparent;
+}
+.wcd-wizard.right::before {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    top: 50%; /* At the bottom of the tooltip */
+    left: 100%;
+    margin-top: -15px;
+    border-width: 15px;
+    border-color:  transparent  transparent transparent #01A0D2;
+}
+.wcd-wizard.left::before {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    top: 50%; /* At the bottom of the tooltip */
+    margin-left: -50px;
+    margin-top: -15px;
+    border-width: 15px;
+    border-color:  transparent #01A0D2 transparent transparent ;
+}
+.wcd-wizard.top::before {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    margin-top: -30px;
+    top: 0;
+    border-color: transparent transparent #01A0D2 transparent ;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+
+}
+
+
+/* The switch - the box around the slider */
+.webchangedetector .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+    min-width: inherit;
+}
+
+/* Hide default HTML checkbox */
+.webchangedetector .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.webchangedetector .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+.webchangedetector .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.webchangedetector input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.webchangedetector input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.webchangedetector input:checked + .slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+}
+
+/* Rounded sliders */
+.webchangedetector .slider.round {
+    border-radius: 34px;
+    border: 1px solid #fff;
+}
+
+.webchangedetector .slider.round:before {
+    border-radius: 50%;
+}
